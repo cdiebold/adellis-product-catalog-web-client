@@ -1,5 +1,5 @@
 <template>
-    <!-- 
+    <!--
 3 - Navbar with brand center, links on left and right that all collapse into the vertical mobile
     menu
 -->
@@ -27,7 +27,9 @@
                 </li>
             </ul>
         </div>
-        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">Brand</a>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
+            <img alt="Adellis Corporation" src="../assets/logo_small.png">
+        </a>
         <div class="navbar-collapse collapse dual-nav w-50 order-2">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
